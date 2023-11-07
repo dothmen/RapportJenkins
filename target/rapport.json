@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4017437200,
+              "duration": 4046837200,
               "status": "passed"
             },
             "line": 4,
@@ -23,8 +23,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 30 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54725}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir20096_94543757}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: aa356d7778319f2c818fae79b0cde0f0\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/add.feature:5)\r\n",
-              "duration": 42555700,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 18 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:55139}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir1404_562625737}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: ee8b25766c0bf3960f73fe1e88edc315\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/add.feature:5)\r\n",
+              "duration": 25545900,
               "status": "failed"
             },
             "line": 5,
@@ -69,11 +69,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T15:51:26.825Z",
+        "start_timestamp": "2023-11-07T16:10:06.710Z",
         "before": [
           {
             "result": {
-              "duration": 1167729100,
+              "duration": 1105489100,
               "status": "passed"
             },
             "match": {
@@ -100,7 +100,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1423600,
+              "duration": 1175600,
               "status": "skipped"
             },
             "line": 11,
@@ -123,7 +123,6 @@
           },
           {
             "result": {
-              "duration": 1072500,
               "status": "skipped"
             },
             "line": 13,
@@ -160,7 +159,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3166380000,
+              "duration": 1407996600,
               "status": "passed"
             },
             "line": 5,
@@ -172,8 +171,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 24 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54747}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir17820_894612521}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 6223c614e0f45b99a5f42a5bb20bc6be\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/addcomment.feature:6)\r\n",
-              "duration": 24341900,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 17 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:55160}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir13088_220991425}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: bd8a9b11fc5af9ca95eb7976e22064f3\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/addcomment.feature:6)\r\n",
+              "duration": 16609000,
               "status": "failed"
             },
             "line": 6,
@@ -195,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 1019100,
+              "duration": 229500,
               "status": "skipped"
             },
             "line": 7,
@@ -229,7 +228,7 @@
           },
           {
             "result": {
-              "duration": 1000400,
+              "duration": 997100,
               "status": "skipped"
             },
             "line": 10,
@@ -252,7 +251,7 @@
           },
           {
             "result": {
-              "duration": 1000800,
+              "duration": 999000,
               "status": "skipped"
             },
             "line": 12,
@@ -264,6 +263,7 @@
           },
           {
             "result": {
+              "duration": 363600,
               "status": "skipped"
             },
             "line": 13,
@@ -275,7 +275,6 @@
           },
           {
             "result": {
-              "duration": 1000200,
               "status": "skipped"
             },
             "line": 14,
@@ -288,11 +287,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T15:51:32.125Z",
+        "start_timestamp": "2023-11-07T16:10:11.954Z",
         "before": [
           {
             "result": {
-              "duration": 764580600,
+              "duration": 775381000,
               "status": "passed"
             },
             "match": {
@@ -319,6 +318,7 @@
         "steps": [
           {
             "result": {
+              "duration": 897400,
               "status": "skipped"
             },
             "line": 18,
@@ -330,7 +330,6 @@
           },
           {
             "result": {
-              "duration": 998800,
               "status": "skipped"
             },
             "line": 19,
@@ -381,11 +380,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-11-07T15:51:36.095Z",
+        "start_timestamp": "2023-11-07T16:10:14.169Z",
         "before": [
           {
             "result": {
-              "duration": 782433200,
+              "duration": 748367200,
               "status": "passed"
             },
             "match": {
@@ -412,7 +411,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1561974600,
+              "duration": 1563118300,
               "status": "passed"
             },
             "line": 6,
@@ -424,8 +423,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 19 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54768}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir3644_1175094422}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 111bf1f3e09f06e9a476315f5365ed24\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/login.test.page.feature:7)\r\n",
-              "duration": 19941900,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 20 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:55181}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir15364_1990804449}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: ffd9b82fb3f721410f551bcb5126af90\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/login.test.page.feature:7)\r\n",
+              "duration": 20866800,
               "status": "failed"
             },
             "line": 7,
@@ -447,6 +446,7 @@
           },
           {
             "result": {
+              "duration": 503800,
               "status": "skipped"
             },
             "line": 8,
@@ -475,11 +475,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T15:51:38.480Z",
+        "start_timestamp": "2023-11-07T16:10:16.519Z",
         "before": [
           {
             "result": {
-              "duration": 827525200,
+              "duration": 753770100,
               "status": "passed"
             },
             "match": {
@@ -506,7 +506,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2248045900,
+              "duration": 2473754000,
               "status": "passed"
             },
             "line": 17,
@@ -518,8 +518,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 23 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54789}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir6464_773675835}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 29ee7735da4033bb764e6ee73b6320a5\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen1@gmail.comanddodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/login.test.page.feature:18)\r\n",
-              "duration": 23383500,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 23 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:55202}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir22080_592318963}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: a3902fee8bdd8a79f99028a7fc1bb6bb\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen1@gmail.comanddodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/login.test.page.feature:18)\r\n",
+              "duration": 24837900,
               "status": "failed"
             },
             "line": 18,
@@ -588,7 +588,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1219048300,
+              "duration": 1880434300,
               "status": "passed"
             },
             "line": 4,
@@ -600,8 +600,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 23 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54810}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir19924_1390250639}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: e6d6f47e71dfafc9a04761e102d809ff\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/research.feature:5)\r\n",
-              "duration": 23574600,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 14 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:55224}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir21900_423764154}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 5311082ad761714cb257b3d0854d77b4\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/research.feature:5)\r\n",
+              "duration": 15280800,
               "status": "failed"
             },
             "line": 5,
@@ -634,6 +634,7 @@
           },
           {
             "result": {
+              "duration": 999700,
               "status": "skipped"
             },
             "line": 7,
@@ -646,11 +647,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T15:51:41.596Z",
+        "start_timestamp": "2023-11-07T16:10:19.780Z",
         "before": [
           {
             "result": {
-              "duration": 779573900,
+              "duration": 808188100,
               "status": "passed"
             },
             "match": {
@@ -677,7 +678,7 @@
         "steps": [
           {
             "result": {
-              "duration": 500200,
+              "duration": 1004600,
               "status": "skipped"
             },
             "line": 11,
@@ -689,7 +690,6 @@
           },
           {
             "result": {
-              "duration": 500000,
               "status": "skipped"
             },
             "line": 12,
@@ -701,7 +701,7 @@
           },
           {
             "result": {
-              "duration": 453500,
+              "duration": 501400,
               "status": "skipped"
             },
             "line": 13,
@@ -713,6 +713,7 @@
           },
           {
             "result": {
+              "duration": 498000,
               "status": "skipped"
             },
             "line": 14,
@@ -724,7 +725,7 @@
           },
           {
             "result": {
-              "duration": 79000,
+              "duration": 288100,
               "status": "skipped"
             },
             "line": 15,
@@ -761,7 +762,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3894300800,
+              "duration": 2029556000,
               "status": "passed"
             },
             "line": 5,
@@ -773,8 +774,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 22 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54832}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir16076_1144908767}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 285d9fd50a631ab88f2ef42f3a66db12\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/update.feature:6)\r\n",
-              "duration": 21810200,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 22 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:55246}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir7928_995945536}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: f46d15bd79fd83d0645b3d93ed7b485c\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/update.feature:6)\r\n",
+              "duration": 23068100,
               "status": "failed"
             },
             "line": 6,
@@ -796,6 +797,7 @@
           },
           {
             "result": {
+              "duration": 309500,
               "status": "skipped"
             },
             "line": 7,
@@ -819,11 +821,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T15:51:43.635Z",
+        "start_timestamp": "2023-11-07T16:10:22.498Z",
         "before": [
           {
             "result": {
-              "duration": 784293200,
+              "duration": 829716500,
               "status": "passed"
             },
             "match": {
@@ -861,6 +863,7 @@
           },
           {
             "result": {
+              "duration": 1180600,
               "status": "skipped"
             },
             "line": 14,
@@ -872,6 +875,7 @@
           },
           {
             "result": {
+              "duration": 500200,
               "status": "skipped"
             },
             "line": 15,
@@ -904,7 +908,6 @@
           },
           {
             "result": {
-              "duration": 991400,
               "status": "skipped"
             },
             "line": 17,
@@ -952,7 +955,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8243748000,
+              "duration": 7220833600,
               "status": "passed"
             },
             "line": 5,
@@ -964,8 +967,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 18 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54860}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir21940_247712351}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: f7f1fc98837a37138f165ca2c8fb0b47\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/update.feature:6)\r\n",
-              "duration": 18376700,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 20 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:55270}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir16920_1110089963}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: c2010f1d64d86a1582fc277c7f1e65e3\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/update.feature:6)\r\n",
+              "duration": 22116100,
               "status": "failed"
             },
             "line": 6,
@@ -987,7 +990,6 @@
           },
           {
             "result": {
-              "duration": 700000,
               "status": "skipped"
             },
             "line": 7,
@@ -999,7 +1001,6 @@
           },
           {
             "result": {
-              "duration": 103900,
               "status": "skipped"
             },
             "line": 8,
@@ -1012,11 +1013,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T15:51:48.353Z",
+        "start_timestamp": "2023-11-07T16:10:25.395Z",
         "before": [
           {
             "result": {
-              "duration": 853508200,
+              "duration": 823697300,
               "status": "passed"
             },
             "match": {
@@ -1043,6 +1044,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1484800,
               "status": "skipped"
             },
             "line": 27,
@@ -1076,6 +1078,7 @@
           },
           {
             "result": {
+              "duration": 218200,
               "status": "skipped"
             },
             "line": 30,
@@ -1097,7 +1100,6 @@
           },
           {
             "result": {
-              "duration": 1160400,
               "status": "skipped"
             },
             "line": 31,
@@ -1109,6 +1111,7 @@
           },
           {
             "result": {
+              "duration": 499800,
               "status": "skipped"
             },
             "line": 32,
@@ -1120,7 +1123,7 @@
           },
           {
             "result": {
-              "duration": 199600,
+              "duration": 500500,
               "status": "skipped"
             },
             "line": 33,
@@ -1132,6 +1135,7 @@
           },
           {
             "result": {
+              "duration": 506600,
               "status": "skipped"
             },
             "line": 34,
