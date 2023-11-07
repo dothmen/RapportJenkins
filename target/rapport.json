@@ -11,7 +11,156 @@
         "steps": [
           {
             "result": {
-              "duration": 2840772300,
+              "duration": 4017437200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "login page is open",
+            "match": {
+              "location": "teststeps.steps.login_page_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 30 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54725}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir20096_94543757}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: aa356d7778319f2c818fae79b0cde0f0\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/add.feature:5)\r\n",
+              "duration": 42555700,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user enters dorsafothmen12@gmail.comandDodo27948.!",
+            "match": {
+              "arguments": [
+                {
+                  "val": " dorsafothmen12@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "Dodo27948.!",
+                  "offset": 39
+                }
+              ],
+              "location": "teststeps.steps.user_enters_email_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "clicks on login  button",
+            "match": {
+              "location": "teststeps.steps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "teststeps.steps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-07T15:51:26.825Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1167729100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "teststeps.steps.browsersetup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "check add the selected product to the cart",
+        "description": "",
+        "id": "add-the-selected-product-to-the-cart;check-add-the-selected-product-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "teststeps.steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1423600,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "when the user clicks on the product he wants to buy",
+            "match": {
+              "location": "teststeps.steps.when_the_user_clicks_on_the_product_he_wants_to_buy()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click on add to Cart",
+            "match": {
+              "location": "teststeps.steps.click_on_add_to_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1072500,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Product added to cart successfully",
+            "match": {
+              "location": "teststeps.steps.product_added_to_cart_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add"
+          }
+        ]
+      }
+    ],
+    "name": "add the selected product to the cart",
+    "description": "",
+    "id": "add-the-selected-product-to-the-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/add.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3166380000,
               "status": "passed"
             },
             "line": 5,
@@ -23,8 +172,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 40 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:50045}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir2880_1886562581}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 5b2bfe2d4666365b844fe1ecacf8e987\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/update.feature:6)\r\n",
-              "duration": 48204100,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 24 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54747}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir17820_894612521}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 6223c614e0f45b99a5f42a5bb20bc6be\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/addcomment.feature:6)\r\n",
+              "duration": 24341900,
               "status": "failed"
             },
             "line": 6,
@@ -46,7 +195,607 @@
           },
           {
             "result": {
-              "duration": 520500,
+              "duration": 1019100,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "clicks on login  button",
+            "match": {
+              "location": "teststeps.steps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "teststeps.steps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user wants to search for the cheapest software",
+            "match": {
+              "location": "teststeps.steps.user_wants_to_search_for_the_cheapest_software()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user click on informatique button",
+            "match": {
+              "location": "teststeps.steps.user_click_on_informatique_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "choose the category user click on software button",
+            "match": {
+              "location": "teststeps.steps.choose_the_category_user_click_on_software_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000800,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click on relevance button and click on decreasing price",
+            "match": {
+              "location": "teststeps.steps.click_on_relevance_button_and_click_on_decreasing_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user chooses the software that suits them",
+            "match": {
+              "location": "teststeps.steps.user_chooses_the_software_that_suits_them()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "when the user clicks on the product he wants to buy",
+            "match": {
+              "location": "teststeps.steps.when_the_user_clicks_on_the_product_he_wants_to_buy()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-07T15:51:32.125Z",
+        "before": [
+          {
+            "result": {
+              "duration": 764580600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "teststeps.steps.browsersetup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "add a comment",
+        "description": "",
+        "id": "add-a-comment;add-a-comment",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "teststeps.steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click on add a comment",
+            "match": {
+              "location": "teststeps.steps.user_click_on_add_a_comment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "enter clearer photo please",
+            "match": {
+              "location": "teststeps.steps.enter_clearer_photo_please()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "click on submit button",
+            "match": {
+              "location": "teststeps.steps.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "submit comment is successful",
+            "match": {
+              "location": "teststeps.steps.submit_comment_is_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addcomment"
+          }
+        ]
+      }
+    ],
+    "name": "add a comment",
+    "description": "",
+    "id": "add-a-comment",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/addcomment.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-07T15:51:36.095Z",
+        "before": [
+          {
+            "result": {
+              "duration": 782433200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "teststeps.steps.browsersetup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "check login is successful with valid credentials",
+        "description": "",
+        "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "teststeps.steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1561974600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login page is open",
+            "match": {
+              "location": "teststeps.steps.login_page_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 19 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54768}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir3644_1175094422}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 111bf1f3e09f06e9a476315f5365ed24\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/login.test.page.feature:7)\r\n",
+              "duration": 19941900,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user enters dorsafothmen12@gmail.comandDodo27948.!",
+            "match": {
+              "arguments": [
+                {
+                  "val": " dorsafothmen12@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "Dodo27948.!",
+                  "offset": 39
+                }
+              ],
+              "location": "teststeps.steps.user_enters_email_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "clicks on login  button",
+            "match": {
+              "location": "teststeps.steps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "teststeps.steps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-07T15:51:38.480Z",
+        "before": [
+          {
+            "result": {
+              "duration": 827525200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "teststeps.steps.browsersetup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "check login not valid",
+        "description": "",
+        "id": "test-login-functionality;check-login-not-valid;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "teststeps.steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2248045900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "login page is open",
+            "match": {
+              "location": "teststeps.steps.login_page_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 23 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54789}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir6464_773675835}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 29ee7735da4033bb764e6ee73b6320a5\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen1@gmail.comanddodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/login.test.page.feature:18)\r\n",
+              "duration": 23383500,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "user enters dorsafothmen1@gmail.comanddodo27948.!",
+            "match": {
+              "arguments": [
+                {
+                  "val": " dorsafothmen1@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "dodo27948.!",
+                  "offset": 38
+                }
+              ],
+              "location": "teststeps.steps.user_enters_email_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "clicks on login  button",
+            "match": {
+              "location": "teststeps.steps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user recived error message",
+            "match": {
+              "location": "teststeps.steps.user_recived_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@failedlogin"
+          }
+        ]
+      }
+    ],
+    "name": "Test login functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.test.page.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1219048300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "login page is open",
+            "match": {
+              "location": "teststeps.steps.login_page_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 23 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54810}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir19924_1390250639}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: e6d6f47e71dfafc9a04761e102d809ff\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/research.feature:5)\r\n",
+              "duration": 23574600,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user enters dorsafothmen12@gmail.comandDodo27948.!",
+            "match": {
+              "arguments": [
+                {
+                  "val": " dorsafothmen12@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "Dodo27948.!",
+                  "offset": 39
+                }
+              ],
+              "location": "teststeps.steps.user_enters_email_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "clicks on login  button",
+            "match": {
+              "location": "teststeps.steps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "teststeps.steps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-07T15:51:41.596Z",
+        "before": [
+          {
+            "result": {
+              "duration": 779573900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "teststeps.steps.browsersetup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "check research product is successful",
+        "description": "",
+        "id": "research-product;check-research-product-is-successful",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "teststeps.steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 500200,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user wants to search for the cheapest software",
+            "match": {
+              "location": "teststeps.steps.user_wants_to_search_for_the_cheapest_software()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 500000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user click on informatique button",
+            "match": {
+              "location": "teststeps.steps.user_click_on_informatique_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 453500,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "choose the category user click on software button",
+            "match": {
+              "location": "teststeps.steps.choose_the_category_user_click_on_software_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "click on relevance button and click on decreasing price",
+            "match": {
+              "location": "teststeps.steps.click_on_relevance_button_and_click_on_decreasing_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user chooses the software that suits them",
+            "match": {
+              "location": "teststeps.steps.user_chooses_the_software_that_suits_them()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@research"
+          }
+        ]
+      }
+    ],
+    "name": "research product",
+    "description": "",
+    "id": "research-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/research.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3894300800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login page is open",
+            "match": {
+              "location": "teststeps.steps.login_page_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 22 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54832}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir16076_1144908767}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 285d9fd50a631ab88f2ef42f3a66db12\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/update.feature:6)\r\n",
+              "duration": 21810200,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user enters dorsafothmen12@gmail.comandDodo27948.!",
+            "match": {
+              "arguments": [
+                {
+                  "val": " dorsafothmen12@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "Dodo27948.!",
+                  "offset": 39
+                }
+              ],
+              "location": "teststeps.steps.user_enters_email_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
               "status": "skipped"
             },
             "line": 7,
@@ -70,11 +819,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T09:44:06.411Z",
+        "start_timestamp": "2023-11-07T15:51:43.635Z",
         "before": [
           {
             "result": {
-              "duration": 1158401100,
+              "duration": 784293200,
               "status": "passed"
             },
             "match": {
@@ -101,7 +850,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1511300,
               "status": "skipped"
             },
             "line": 13,
@@ -145,7 +893,6 @@
           },
           {
             "result": {
-              "duration": 1237400,
               "status": "skipped"
             },
             "line": 16,
@@ -157,7 +904,7 @@
           },
           {
             "result": {
-              "duration": 356400,
+              "duration": 991400,
               "status": "skipped"
             },
             "line": 17,
@@ -193,6 +940,211 @@
         "tags": [
           {
             "name": "@update"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8243748000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login page is open",
+            "match": {
+              "location": "teststeps.steps.login_page_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response\n  (Session info: chrome\u003d119.0.6045.106)\n  (Driver info: chromedriver\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform\u003dWindows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 18 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027TALAN-11UE63J\u0027, ip: \u002710.70.0.172\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.20\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54860}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, fedcm:accounts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir\u003dC:\\Users\\dothmen\\AppData\\Local\\Temp\\scoped_dir21940_247712351}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d119.0.6045.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, webauthn:extension:minPinLength\u003dtrue, webauthn:extension:prf\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: f7f1fc98837a37138f165ca2c8fb0b47\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027form-control\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat testpages.logintestpage.enterusername(logintestpage.java:18)\r\n\tat teststeps.steps.user_enters_email_password(steps.java:54)\r\n\tat ✽.user enters dorsafothmen12@gmail.comandDodo27948.!(file:///C:/Users/dothmen/Desktop/Nouveau%20dossier/jenkins/Act-5.5/ecommece/src/test/resources/Features/update.feature:6)\r\n",
+              "duration": 18376700,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user enters dorsafothmen12@gmail.comandDodo27948.!",
+            "match": {
+              "arguments": [
+                {
+                  "val": " dorsafothmen12@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "Dodo27948.!",
+                  "offset": 39
+                }
+              ],
+              "location": "teststeps.steps.user_enters_email_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 700000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "clicks on login  button",
+            "match": {
+              "location": "teststeps.steps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "teststeps.steps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-07T15:51:48.353Z",
+        "before": [
+          {
+            "result": {
+              "duration": 853508200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "teststeps.steps.browsersetup()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "test update is not successful",
+        "description": "",
+        "id": "update-for-first-name;test-update-is-not-successful;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "teststeps.steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "teststeps.steps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "click on information button",
+            "match": {
+              "location": "teststeps.steps.click_on_information_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user delete old first name",
+            "match": {
+              "location": "teststeps.steps.user_delete_old_first_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user writes dorsafaaaandfgsfgf",
+            "match": {
+              "arguments": [
+                {
+                  "val": " dorsafaaa",
+                  "offset": 11
+                },
+                {
+                  "val": "fgsfgf",
+                  "offset": 24
+                }
+              ],
+              "location": "teststeps.steps.user_writes_newfirstname_and_Password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1160400,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "click to pic message",
+            "match": {
+              "location": "teststeps.steps.click_to_pic_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "click to pic confidentiality",
+            "match": {
+              "location": "teststeps.steps.click_to_pic_confidentiality()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199600,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "click to save button",
+            "match": {
+              "location": "teststeps.steps.click_to_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "update new first name is not successful",
+            "match": {
+              "location": "teststeps.steps.update_new_first_name_is_not_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@failedupdate"
           }
         ]
       }
